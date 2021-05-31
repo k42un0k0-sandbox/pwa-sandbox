@@ -1,0 +1,12 @@
+{
+  "name": "pwa-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^11.3.2"
+  },
+  "scripts": {
+    "start": "serve --ssl-cert C:\\Users\\k42un\\Documents\\workspace\\utils\\ssl\\localhost.pem --ssl-key C:\\Users\\k42un\\Documents\\workspace\\utils\\ssl\\localhost-key.pem "
+  }
+}
