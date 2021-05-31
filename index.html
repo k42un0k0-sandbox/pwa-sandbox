@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- マニフェストファイルを読み込むためのlinkタグ -->
+  <link rel="manifest" href="manifest.json">
+  <title>最小構成 PWA</title>
+</head>
+<body>
+  <h1>最小構成 PWA</h1>
+  <!-- サービスワーカーを登録するためのscriptタグ -->
+  <script>
+      navigator.serviceWorker.register("./sw.js");
+  </script>
+</body>
+</html>

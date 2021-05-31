@@ -1,0 +1,16 @@
+{
+  "name": "最小構成 PWA",
+  "short_name": "minimum installable pwa",
+  "description": "インストール可能なPWAの最小構成",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "theme_color": "#B12A34",
+  "background_color": "#B12A34"
+}
